@@ -103,7 +103,7 @@ function secrets(obj) {
   let str = '';
 
   for(let key in obj){
-    if(key[0] === 's' && key[1] === 'h'){
+    if(key.startsWith('sh')){
       str = str + obj[key];
     }
   }
