@@ -129,7 +129,6 @@ class ProgressiveManager extends Employee{
   fire(index) {
     this.reports.splice(index, 1);
     this.bonus = this.bonus + 100;
-    this.title = this.title + 1;
 
     if(this.reports.length === 0){
       this.title = 'Not a manager';
