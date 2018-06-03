@@ -179,7 +179,7 @@ class Machine {
   }
 
   makeWidgets(num){
-    this.widgets_made_count = this.widgets_made_count + num;
+    this.widgets_made_count += num;
     this.wear_and_tear_count = this.widgets_made_count / 50;
   }
 
